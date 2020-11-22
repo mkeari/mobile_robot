@@ -5,18 +5,18 @@ import math
 from random import random
 
 # Initial position and parameters of a robot
-p_initial = [13, 13]
-theta_initial = 1
+p_initial = [12, 4]
+theta_initial = 3
 
 R_initial = 0.2
 L_initial = 1.5
 dT_initial = 0.05
 
-robot_speed = 3
+robot_speed = 5
 prox_sensor_radius = 0.5
 
 # Light source position
-p_light = [17, 16]
+p_light = [18, 18]
 
 # Centre coordinates of the obstacles
 obstacle_radius = 1.5
@@ -320,7 +320,6 @@ def main():
     dist = math.hypot(robot1.x - p_light[0], robot1.y - p_light[1])
     while dist > 0.8:
         dist = math.hypot(robot1.x - p_light[0], robot1.y - p_light[1])
-        print(str(dist))
 
         robot1.move()
         plot_everything(p_initial[0], p_initial[1], theta_initial, 
