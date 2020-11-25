@@ -1,3 +1,8 @@
-# 2D Mobile Robot: Path following with obstacle avoidance
+# 2D Mobile Robot: Goal following with obstacle avoidance
 
-![mobile_robot_gif1](https://github.com/mkeari/mobile_robot/tree/main/misc/mobile_robot_gif1.gif)
+Example animation:
+<p align="center">
+<img src="/misc/mobile_robot_gif1.gif" width="400" height="350"/>
+<img src="/misc/mobile_robot_gif2.gif" width="400" height="350"/>
+<img src="/misc/mobile_robot_gif3.gif" width="400" height="350"/>
+</p>
