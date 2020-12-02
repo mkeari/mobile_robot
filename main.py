@@ -4,23 +4,22 @@ import numpy as np
 import math
 from random import random
 
-# Initial position and parameters of a robot
-p_initial = [12, 4]
-theta_initial = 3
+#Environment Configurations
 
-R_initial = 0.2
-L_initial = 1.5
-dT_initial = 0.05
+p_initial = [12, 4]         #Initial position of the robot
+theta_initial = 3           #Initial orientation of the robot
 
-robot_speed = 5
-prox_sensor_radius = 0.5
+R_initial = 0.2             #Radius of robot wheels
+L_initial = 1.5             #Length of robot base
+dT_initial = 0.05           #delta Time (the framing frequency for plotting)
 
-# Light source position
-p_light = [18, 18]
+robot_speed = 5             #Base speed of the robot
+prox_sensor_radius = 0.5    #Radius of proximity sensor domain
 
-# Centre coordinates of the obstacles
-obstacle_radius = 1.5
-p_obstacles = [[6, 7],
+p_light = [18, 18]          #Position of light source
+
+obstacle_radius = 1.5       #Radius of the obstacles
+p_obstacles = [[6, 7],      # Centre coordinates of the obstacles
                [5, 16],
                [14, 8],
                [18, 3]]
