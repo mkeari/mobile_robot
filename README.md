@@ -1,4 +1,4 @@
-# 2D Mobile Robot: Goal following with obstacle avoidance
+# 2D Mobile (Differential-Drive) Robot: Goal following with obstacle avoidance
 <p align="center">
 <img src="/misc/mobile_robot_gif3.gif" width="400" height="350"/>
 </p>
